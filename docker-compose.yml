@@ -11,5 +11,5 @@ services:
       - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
       - TZ=Europe/London
     ports:
-      - "${PORT:-8191}:8191"
+      - 192.168.100.210:8191:8191
     restart: unless-stopped
